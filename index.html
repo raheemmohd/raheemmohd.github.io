@@ -1,235 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohammed Abdul Raheem | DevOps Engineer</title>
-
-<style>
-:root {
-  --bg: #0f172a;
-  --card: rgba(255,255,255,0.05);
-  --accent: #38bdf8;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: var(--bg);
-  color: white;
-}
-
-nav {
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(10px);
-  background: rgba(15,23,42,0.7);
-  padding: 15px;
-  text-align: center;
-}
-
-nav a {
-  margin: 0 15px;
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-}
-
-.hero h1 {
-  font-size: 50px;
-  background: linear-gradient(to right, #38bdf8, #818cf8);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.typing {
-  font-size: 20px;
-  margin: 10px 0;
-}
-
-.btn {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 20px;
-  background: var(--accent);
-  color: black;
-  border-radius: 6px;
-  text-decoration: none;
-}
-
-.section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.card {
-  background: var(--card);
-  padding: 20px;
-  border-radius: 15px;
-  backdrop-filter: blur(10px);
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-}
-
-.skills {
-  max-width: 600px;
-  margin: auto;
-}
-
-.skill {
-  margin: 15px 0;
-  text-align: left;
-}
-
-.bar {
-  height: 8px;
-  background: #1e293b;
-  border-radius: 5px;
-}
-
-.fill {
-  height: 100%;
-  background: var(--accent);
-  border-radius: 5px;
-}
-
-.fade {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: 1s;
-}
-
-.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohammed Abdul Raheem - Cybersecurity Portfolio | SOC | VAPT | Ethical Hacking">
+  <title>Raheem | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-<nav>
-  <a href="#home">Home</a>
-  <a href="#projects">Projects</a>
-  <a href="#skills">Skills</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="home" class="hero fade">
-  <h1>Mohammed Abdul Raheem</h1>
-  <p class="typing" id="typing"></p>
-
-  <a href="resume.pdf" class="btn">Resume</a>
-  <a href="https://github.com/raheemmohd" class="btn" target="_blank">GitHub</a>
-</section>
-
-<section class="section fade">
-  <h2>About Me</h2>
-  <p>I build scalable cloud and DevOps systems using AWS, Docker, and automation.</p>
-</section>
-
-<section id="projects" class="section fade">
-  <h2>Projects</h2>
-
-  <div class="cards">
-    <div class="card">
-      <h3>AI Resume Generator</h3>
-      <p>Automation using Python</p>
+  <div class="scanline"></div>
+  <nav class="nav">
+    <a class="logo" href="#home"><span>R</span>AAHEEM<span class="dot">_</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a href="#labs">Labs</a><a href="#contact">Contact</a>
     </div>
+    <a class="nav-btn" href="resume.pdf" target="_blank">Resume ↗</a>
+  </nav>
 
-    <div class="card">
-      <h3>Docker Projects</h3>
-      <p>Containerized applications</p>
-    </div>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="terminal-tag"><span class="pulse"></span> SYSTEM STATUS: SECURITY MODE ACTIVE</div>
+          <p class="eyebrow">CYBERSECURITY • SOC • VAPT • ETHICAL HACKING</p>
+          <h1>Defend.<br><span>Detect.</span><br>Exploit Ethically.</h1>
+          <p class="hero-text">I'm <strong>Mohammed Abdul Raheem</strong>, a cybersecurity enthusiast building hands-on skills in SOC operations, vulnerability assessment, penetration testing, threat intelligence and security automation.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View My Work <span>→</span></a>
+            <a class="btn secondary" href="#contact">Let's Connect</a>
+          </div>
+          <div class="stats">
+            <div><strong>VAPT</strong><span>Security Testing</span></div>
+            <div><strong>SOC</strong><span>Threat Monitoring</span></div>
+            <div><strong>LABS</strong><span>Hands-on Practice</span></div>
+          </div>
+        </div>
+        <div class="cyber-card">
+          <div class="card-top"><span>LIVE_SECURITY_MONITOR</span><span>● ONLINE</span></div>
+          <div class="orb">
+            <div class="ring r1"></div><div class="ring r2"></div><div class="core">SEC<br><small>ACTIVE</small></div>
+          </div>
+          <div class="monitor-lines">
+            <p><b>[+]</b> Network visibility ........ OK</p>
+            <p><b>[+]</b> Vulnerability assessment .. READY</p>
+            <p><b>[+]</b> IOC monitoring ........... ACTIVE</p>
+            <p><b>[+]</b> Incident triage ........... READY</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="card">
-      <h3>AWS Deployment</h3>
-      <p>EC2, IAM, Deployments</p>
-    </div>
-  </div>
-</section>
+    <section id="about" class="section">
+      <div class="section-head"><span>01 //</span><h2>About Me</h2></div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>I enjoy understanding how attacks work so I can identify weaknesses, investigate suspicious activity and help make systems more resilient.</p>
+          <p>My practical learning covers reconnaissance, network enumeration, web application security testing, vulnerability scanning, phishing analysis, IOC investigation and SOC workflows.</p>
+          <div class="quote">“Think like an attacker. Investigate like a defender.”</div>
+        </div>
+        <div class="terminal">
+          <div class="terminal-bar"><i></i><i></i><i></i><span>raheem@security:~</span></div>
+          <div class="terminal-body">
+            <p><span>$</span> whoami</p><p class="out">cybersecurity_analyst_in_training</p>
+            <p><span>$</span> focus --show</p><p class="out">SOC | VAPT | Web Security | Threat Intel</p>
+            <p><span>$</span> mission</p><p class="out green">learn → test → detect → secure</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="skills" class="section fade">
-  <h2>Skills</h2>
+    <section id="skills" class="section dark-section">
+      <div class="section-head"><span>02 //</span><h2>Security Arsenal</h2></div>
+      <div class="skills-grid">
+        <article><div class="icon">⌁</div><h3>SOC & Detection</h3><p>Alert triage, IOC monitoring, log analysis, incident response fundamentals, SIEM concepts.</p><div class="tags"><b>Splunk</b><b>QRadar</b><b>EDR</b></div></article>
+        <article><div class="icon">◈</div><h3>VAPT & Pentesting</h3><p>Reconnaissance, enumeration, vulnerability identification, validation and remediation reporting.</p><div class="tags"><b>Nmap</b><b>Burp Suite</b><b>Nessus</b></div></article>
+        <article><div class="icon">⌘</div><h3>Network Security</h3><p>TCP/IP, DNS, DHCP, ports, firewalls, IDS/IPS, VPN, IAM and Zero Trust concepts.</p><div class="tags"><b>Linux</b><b>Networking</b><b>IAM</b></div></article>
+        <article><div class="icon">⚙</div><h3>Automation & Cloud</h3><p>Security-minded scripting and infrastructure fundamentals with cloud and DevOps exposure.</p><div class="tags"><b>Python</b><b>AWS</b><b>Git</b></div></article>
+      </div>
+    </section>
 
-  <div class="skills">
+    <section id="projects" class="section">
+      <div class="section-head"><span>03 //</span><h2>Featured Projects</h2></div>
+      <div class="projects">
+        <article class="project featured"><div class="project-num">01</div><div><p class="project-type">VAPT / WEB SECURITY</p><h3>Web Application Security Testing Lab</h3><p>Built an authorized lab to practice reconnaissance, Nmap enumeration and Burp Suite testing. Investigated common web weaknesses and documented security impact and remediation.</p><div class="project-tags"><span>Burp Suite</span><span>Nmap</span><span>OWASP</span><span>Linux</span></div><a href="https://github.com/raheemmohd" target="_blank">View GitHub →</a></div></article>
+        <article class="project"><div class="project-num">02</div><div><p class="project-type">SOC / BLUE TEAM</p><h3>IOC Monitoring & Threat Investigation</h3><p>Practiced identifying suspicious indicators, analyzing security events and mapping findings to investigation and response workflows.</p><div class="project-tags"><span>IOC</span><span>SIEM</span><span>Logs</span></div><a href="https://github.com/raheemmohd" target="_blank">View GitHub →</a></div></article>
+        <article class="project"><div class="project-num">03</div><div><p class="project-type">RED TEAM LAB</p><h3>Ethical Hacking Attack Simulation Lab</h3><p>Controlled environment for learning reconnaissance, enumeration, exploitation fundamentals and defensive investigation.</p><div class="project-tags"><span>Kali Linux</span><span>Metasploit</span><span>Networking</span></div><a href="https://github.com/raheemmohd" target="_blank">View GitHub →</a></div></article>
+        <article class="project"><div class="project-num">04</div><div><p class="project-type">VULNERABILITY MANAGEMENT</p><h3>Vulnerability Assessment Lab</h3><p>Performed vulnerability scans, prioritized findings by risk and created remediation-focused security reports.</p><div class="project-tags"><span>Nessus</span><span>OpenVAS</span><span>CVE</span></div><a href="https://github.com/raheemmohd" target="_blank">View GitHub →</a></div></article>
+      </div>
+    </section>
 
-    <div class="skill">
-      <p>AWS</p>
-      <div class="bar"><div class="fill" style="width: 90%"></div></div>
-    </div>
+    <section id="labs" class="section dark-section">
+      <div class="section-head"><span>04 //</span><h2>Hands-on Learning</h2></div>
+      <div class="timeline">
+        <div><span>01</span><h3>Reconnaissance</h3><p>Information gathering, target mapping and service discovery in authorized environments.</p></div>
+        <div><span>02</span><h3>Enumeration</h3><p>Identify open ports, services, technologies and attack surfaces.</p></div>
+        <div><span>03</span><h3>Validation</h3><p>Safely validate vulnerabilities and understand business/security impact.</p></div>
+        <div><span>04</span><h3>Detection</h3><p>Analyze logs, IOCs and alerts to understand attacker behavior.</p></div>
+        <div><span>05</span><h3>Remediation</h3><p>Document evidence, risk and practical recommendations to reduce exposure.</p></div>
+      </div>
+    </section>
 
-    <div class="skill">
-      <p>Docker</p>
-      <div class="bar"><div class="fill" style="width: 85%"></div></div>
-    </div>
+    <section id="contact" class="section contact">
+      <div class="section-head"><span>05 //</span><h2>Let's Connect</h2></div>
+      <p class="contact-lead">Open to cybersecurity opportunities, internships, SOC and VAPT roles.</p>
+      <div class="contact-grid">
+        <a href="mailto:YOUR_EMAIL@example.com"><span>EMAIL</span><strong>YOUR_EMAIL@example.com</strong></a>
+        <a href="https://www.linkedin.com/" target="_blank"><span>LINKEDIN</span><strong>Connect with me ↗</strong></a>
+        <a href="https://github.com/raheemmohd" target="_blank"><span>GITHUB</span><strong>github.com/raheemmohd ↗</strong></a>
+      </div>
+    </section>
+  </main>
 
-    <div class="skill">
-      <p>Linux</p>
-      <div class="bar"><div class="fill" style="width: 80%"></div></div>
-    </div>
-
-  </div>
-</section>
-
-<section id="contact" class="section fade">
-  <h2>Contact</h2>
-  <p>raheemmohd0000@gmail.com</p>
-</section>
-
-<footer>
-  <p>© 2026 Mohammed Abdul Raheem</p>
-</footer>
-
-<script>
-// typing
-const text = "DevOps Engineer | AWS | Docker | Linux | CI/CD";
-let i = 0;
-function type() {
-  if (i < text.length) {
-    document.getElementById("typing").innerHTML += text.charAt(i);
-    i++;
-    setTimeout(type, 40);
-  }
-}
-type();
-
-// scroll animation
-const elements = document.querySelectorAll(".fade");
-
-window.addEventListener("scroll", () => {
-  elements.forEach(el => {
-    const pos = el.getBoundingClientRect().top;
-    if (pos < window.innerHeight - 100) {
-      el.classList.add("show");
-    }
-  });
-});
-</script>
-
+  <footer><span>© 2026 Mohammed Abdul Raheem</span><span>Built with HTML • CSS • JavaScript</span></footer>
+  <script src="script.js"></script>
 </body>
 </html>
